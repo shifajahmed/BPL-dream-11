@@ -1,0 +1,92 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm Orthodox",
+    "batingStyle": "Left-hand Bat",
+    "price": 8500000
+  },
+  {
+    "playerName": "Virat Kohli",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "India",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Medium",
+    "batingStyle": "Right-hand Bat",
+    "price": 12000000
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "Pakistan",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Off Break",
+    "batingStyle": "Right-hand Bat",
+    "price": 11000000
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "England",
+    "playerType": "Wicket-Keeper Batter",
+    "bowlingStyle": "Right-arm Medium",
+    "batingStyle": "Right-hand Bat",
+    "price": 10500000
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "Afghanistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Leg Break",
+    "batingStyle": "Right-hand Bat",
+    "price": 9500000
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "New Zealand",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Off Break",
+    "batingStyle": "Right-hand Bat",
+    "price": 9000000
+  },
+  {
+    "playerName": "Pat Cummins",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "Australia",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "batingStyle": "Right-hand Bat",
+    "price": 10000000
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "New Zealand",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast",
+    "batingStyle": "Left-hand Bat",
+    "price": 8000000
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "India",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Off Break",
+    "batingStyle": "Right-hand Bat",
+    "price": 11500000
+  },
+  {
+    "playerName": "Andre Russell",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "West Indies",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Fast",
+    "batingStyle": "Right-hand Bat",
+    "price": 8800000
+  }
+]
