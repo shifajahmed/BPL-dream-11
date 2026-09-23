@@ -1,4 +1,4 @@
-import { use } from "react"; 
+import { use } from "react";
 import type { Iplayer } from "../../types/Player";
 import AvailablePlayers from "./AvailablePlayers";
 
