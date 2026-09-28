@@ -2,7 +2,7 @@
   {
     "playerName": "Shakib Al Hasan",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "orgin": "Bangladesh",
+    "origin": "Bangladesh",
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
     "batingStyle": "Left-hand Bat",
@@ -11,7 +11,7 @@
   {
     "playerName": "Virat Kohli",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "orgin": "India",
+    "origin": "India",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Medium",
     "batingStyle": "Right-hand Bat",
@@ -20,7 +20,7 @@
   {
     "playerName": "Babar Azam",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "orgin": "Pakistan",
+    "origin": "Pakistan",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "batingStyle": "Right-hand Bat",
@@ -29,7 +29,7 @@
   {
     "playerName": "Jos Buttler",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "orgin": "England",
+    "origin": "England",
     "playerType": "Wicket-Keeper Batter",
     "bowlingStyle": "Right-arm Medium",
     "batingStyle": "Right-hand Bat",
@@ -38,7 +38,7 @@
   {
     "playerName": "Rashid Khan",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "orgin": "Afghanistan",
+    "origin": "Afghanistan",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Leg Break",
     "batingStyle": "Right-hand Bat",
@@ -47,7 +47,7 @@
   {
     "playerName": "Kane Williamson",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "orgin": "New Zealand",
+    "origin": "New Zealand",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "batingStyle": "Right-hand Bat",
@@ -56,7 +56,7 @@
   {
     "playerName": "Pat Cummins",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "orgin": "Australia",
+    "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "batingStyle": "Right-hand Bat",
