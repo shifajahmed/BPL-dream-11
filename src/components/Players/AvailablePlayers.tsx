@@ -1,14 +1,16 @@
-import { FaUser } from "react-icons/fa";
+import React from "react";
 import type { Iplayer } from "../../types/PlayerType";
-import Players from "./Players";
+import { FaUser } from "react-icons/fa";
+import PlayerCard from "./playerCard";
 
 const AvailablePlayers = ({ players }: { players: Iplayer[] }) => {
-  console.log(Players, "players from available players");
+  console.log(PlayerCard, "players from available players");
   return (
-    <div className="grid grid-cols-3 gap-4 mt-6">
-      {players.map((player: Iplayer) => {
-        return (
-          
+    <div className="grid grid-cols-3 container mx-auto px-4 gap-7 mt-6">
+      {players.map((player: Iplayer, index: number) => {
+        return <PlayerCard key={index} player={player} />;
+      })}
+    </div>
   );
 };
 

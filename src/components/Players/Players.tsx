@@ -11,7 +11,7 @@ const Players = ({ playersPromise }: PlayersProps) => {
   console.log(players);
   return (
     <div>
-      <div className="flex justify-between gap-4 mb-2">
+      <div className="flex justify-between gap-4 mb-2 container mx-auto px-4">
         <h2 className="font-bold text-xl">Available Players</h2>
         <div>
           <button className="btn btn-success">Available</button>

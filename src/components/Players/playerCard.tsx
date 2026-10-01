@@ -1,40 +1,90 @@
-import React from 'react';
+import { FaUser } from "react-icons/fa";
+import type { Iplayer } from "../../types/PlayerType";
 
-const playerCard = () => {
-    return (
-        <div className="card bg-base-100 gap-7 shadow-sm">
-            <figure>
-              <img src={player.playerImg} alt="player" />
-            </figure>
-            <div className="card-body space-y-3">
-              <h2 className="card-title">
-                <FaUser /> 
-                {player.playerName}
-              </h2>
+const PlayerCard = ({ player }: { player: Iplayer }) => {
+  return (
+    <div className="overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+      {/* Player Image */}
+      <figure className="h-64 overflow-hidden bg-base-200">
+        <img
+          src={player.playerImg}
+          alt={player.playerName}
+          className="h-full w-full transition-transform duration-500 hover:scale-105"
+        />
+      </figure>
 
-              <div className="flex justify-between gap-4">
-                <p className="font-semibold">{player.origin}</p>
-                <button className="btn">{player.playerType}</button>
-              </div>
+      {/* Card Content */}
+      <div className="card-body p-5">
+        {/* Player Name */}
+        <div className="flex items-center gap-2">
+          <FaUser className="text-primary" />
 
-              <div className="divider" />
-              <h2 className="font-bold text-2xl">Rating</h2>
+          <h2 className="text-xl font-bold">
+            {player.playerName}
+          </h2>
+        </div>
 
-              <div className="flex justify-between gap-4">
-                <p className="font-bold">{player.battingStyle}</p>
-                <button className="btn">{player.bowlingStyle}</button>
-              </div>
+        {/* Country & Player Type */}
+        <div className="mt-2 flex items-center justify-between">
+          <p className="text-sm font-medium text-gray-500">
+            {player.origin}
+          </p>
 
-              <div className="card-actions justify-between items-center">
-                <h2 className="font-bold text-2xl">${player.price}</h2>
-                <button className="btn">Buy Now</button>
-              </div>
-            </div>
+          <span className="badge badge-primary badge-outline">
+            {player.playerType}
+          </span>
+        </div>
+
+        <div className="divider my-2"></div>
+
+        {/* Rating */}
+        <h3 className="text-sm font-semibold text-gray-500">
+          Player Details
+        </h3>
+
+        <div className="mt-2 space-y-3">
+          {/* Batting */}
+          <div className="flex items-center justify-between">
+            <span className="text-sm text-gray-500">
+              Batting
+            </span>
+
+            <span className="font-semibold">
+              {player.battingStyle}
+            </span>
           </div>
-        );
-      })}
+
+          {/* Bowling */}
+          <div className="flex items-center justify-between">
+            <span className="text-sm text-gray-500">
+              Bowling
+            </span>
+
+            <span className="font-semibold">
+              {player.bowlingStyle}
+            </span>
+          </div>
+        </div>
+
+        <div className="divider my-2"></div>
+
+        {/* Price & Button */}
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-xs text-gray-500">Price</p>
+
+            <h2 className="text-2xl font-bold">
+              ${player.price}
+            </h2>
+          </div>
+
+          <button className="btn btn-primary">
+            Choose Player
+          </button>
+        </div>
+      </div>
     </div>
-    );
+  );
 };
 
-export default playerCard;
+export default PlayerCard;
