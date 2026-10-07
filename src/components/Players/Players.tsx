@@ -13,14 +13,15 @@ const Players = ({ playersPromise }: PlayersProps) => {
   const [buttonType, setButtonType] = useState("available");
   console.log(buttonType);
 
-  const handleUpdateBnType = () => {
+  const handleUpdateBnType = (type: "available" | "selected") => {
     setButtonType("type");
+  };
   return (
     <div>
       <div className="flex justify-between gap-4 mb-2 container mx-auto px-4">
         <h2 className="font-bold text-xl">Available Players</h2>
         <div>
-          <button onClick ={() => handleUpdateBnType()}
+          <button onClick ={() => handleUpdateBnType("available")}
             className={`btn ${buttonType === "available" ? "btn-success" : ""} rounded-r-none`}
             onClick={() => setButtonType("available")}
           >
