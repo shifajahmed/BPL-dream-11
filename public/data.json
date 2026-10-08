@@ -6,7 +6,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
     "batingStyle": "Left-hand Bat",
-    "price": 8500000
+    "price": 850
   },
   {
     "playerName": "Virat Kohli",
@@ -15,7 +15,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Medium",
     "batingStyle": "Right-hand Bat",
-    "price": 12000000
+    "price": 120
   },
   {
     "playerName": "Babar Azam",
@@ -24,7 +24,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "batingStyle": "Right-hand Bat",
-    "price": 11000000
+    "price": 140
   },
   {
     "playerName": "Jos Buttler",
@@ -33,7 +33,7 @@
     "playerType": "Wicket-Keeper Batter",
     "bowlingStyle": "Right-arm Medium",
     "batingStyle": "Right-hand Bat",
-    "price": 10500000
+    "price": 150
   },
   {
     "playerName": "Rashid Khan",
@@ -42,7 +42,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Leg Break",
     "batingStyle": "Right-hand Bat",
-    "price": 9500000
+    "price": 50
   },
   {
     "playerName": "Kane Williamson",
@@ -51,7 +51,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "batingStyle": "Right-hand Bat",
-    "price": 9000000
+    "price": 90
   },
   {
     "playerName": "Pat Cummins",
@@ -60,7 +60,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "batingStyle": "Right-hand Bat",
-    "price": 10000000
+    "price": 100
   },
   {
     "playerName": "Trent Boult",
@@ -69,7 +69,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
     "batingStyle": "Left-hand Bat",
-    "price": 8000000
+    "price": 80
   },
   {
     "playerName": "Rohit Sharma",
@@ -78,7 +78,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "batingStyle": "Right-hand Bat",
-    "price": 11500000
+    "price": 100
   },
   {
     "playerName": "Mustafizur Rahman",
@@ -87,7 +87,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "batingStyle": "Right-hand Bat",
-    "price": 11500000
+    "price": 115
   },
   {
     "playerName": "MS Dhoni",
@@ -96,7 +96,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "batingStyle": "Right-hand Bat",
-    "price": 11500000
+    "price": 450
   },
   {
     "playerName": "Andre Russell",

@@ -1,9 +1,29 @@
 import { FaUser } from "react-icons/fa";
 import type { Iplayer } from "../../types/PlayerType";
 import { useState } from "react";
+import { toast } from "react-toastify/unstyled";
 
-const PlayerCard = ({ player }: { player: Iplayer }) => {
+const PlayerCard = ({
+  player,
+  coin,
+  setCoin,
+}: {
+  player: Iplayer;
+  coin: number;
+  setCoin: React.Dispatch<React.SetStateAction<number>>;
+}) => {
   const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelectPlayer = () => {
+    setIsSelected(true);
+    const newCoinPrice = coin - player.price;
+    if (newCoinPrice >= 0) {
+      setCoin(newCoinPrice);
+      toast.success(`${player.playerName} is purchased successfully!`);
+    } else {
+      toast.error("You don't have enough coins to purchase this player.");
+    }
+  };
 
   return (
     <div className="overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -66,10 +86,12 @@ const PlayerCard = ({ player }: { player: Iplayer }) => {
           </div>
 
           <button
-            onClick={() => setIsSelected(!isSelected)}
-            className={"btn btn-primary rounded-xl px-5 shadow-md transition-all hover:scale-105"}
-            // disabled={isSelected == true ? true : false} 
-            disabled={isSelected} 
+            onClick={() => handleSelectPlayer()}
+            className={
+              "btn btn-primary rounded-xl px-5 shadow-md transition-all hover:scale-105"
+            }
+            // disabled={isSelected == true ? true : false}
+            disabled={isSelected}
           >
             {isSelected === true ? "Selected" : "Choose Player"}
           </button>
