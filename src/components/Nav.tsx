@@ -1,3 +1,4 @@
+import { AiFillDollarCircle } from "react-icons/ai";
 import Logo from "../assets/logo.png";
 
 const Nav = () => {
@@ -12,6 +13,11 @@ const Nav = () => {
           <li>Teams</li>
           <li>Schedules</li>
         </ul>
+
+        <h2 className="font-bold text-3xl text-black flex gap-1 items-center">
+          <AiFillDollarCircle />
+          500
+        </h2>
       </div>
     </nav>
   );

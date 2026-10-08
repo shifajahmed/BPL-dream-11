@@ -5,7 +5,7 @@ import AvailablePlayers from "./AvailablePlayers";
 interface PlayersProps {
   playersPromise: Promise<Iplayer[]>;
 }
-
+ 
 const Players = ({ playersPromise }: PlayersProps) => {
   const players = use(playersPromise);
   console.log(players);
@@ -14,7 +14,7 @@ const Players = ({ playersPromise }: PlayersProps) => {
   console.log(buttonType);
 
   const handleUpdateBnType = (type: "available" | "selected") => {
-    setButtonType("type");
+    setButtonType(type);
   };
   return (
     <div>
@@ -23,10 +23,11 @@ const Players = ({ playersPromise }: PlayersProps) => {
         <div>
           <button onClick ={() => handleUpdateBnType("available")}
             className={`btn ${buttonType === "available" ? "btn-success" : ""} rounded-r-none`}
-            onClick={() => setButtonType("available")}
           >
             Available
           </button>
+
+          
           <button
             className={`btn ${buttonType === "selected" ? "btn-success" : ""} rounded-l-none`}
             onClick={() => setButtonType("selected")}

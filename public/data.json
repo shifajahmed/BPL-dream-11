@@ -81,6 +81,24 @@
     "price": 11500000
   },
   {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "India",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Off Break",
+    "batingStyle": "Right-hand Bat",
+    "price": 11500000
+  },
+  {
+    "playerName": "MS Dhoni",
+    "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "orgin": "India",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Off Break",
+    "batingStyle": "Right-hand Bat",
+    "price": 11500000
+  },
+  {
     "playerName": "Andre Russell",
     "playerImg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "orgin": "West Indies",
